@@ -6,9 +6,9 @@ import News from './component/News';
 import { Routes, Route } from "react-router-dom";
 // import './env_local'
 export default class App extends Component {
-  pageCount = 4;
-  // apiKey = '4c1d5e593c5349669ebb3148cb5ebd57';
-  apiKey = process.env.REACT_APP_NEWS_KEY;
+  pageCount = 8;
+  apiKey = '86af0c3c3b6646fdabbd95377b7016f7';
+  // apiKey = process.env.REACT_APP_NEWS_KEY;
   
   render() {
     return (
